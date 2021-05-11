@@ -1,0 +1,420 @@
+1)
+import java.util.*;
+public class ONE {
+public static void main(String[] args)
+{
+	Scanner sc=new Scanner(System.in);
+	int a=sc.nextInt();
+	if(a<0)
+	{
+		System.out.println("NEGATIVE");
+	}
+	else if(a>0)
+	{
+		System.out.println("Positive");
+	}
+	else
+	{
+		System.out.println("zero");
+	}
+}
+}
+
+2)
+import java.util.*;
+public class eight {
+	public static void main(String[] input)
+    {
+		Scanner sc=new Scanner(System.in);
+	    char c=sc.next().charAt(0);
+	    if(c=='R')
+	    {
+	    	System.out.println("RED");
+	    }
+	    else if(c=='B')
+	    {
+	    	System.out.println("BLUE");
+	    }
+	    else if(c=='G')
+	    {
+	    	System.out.println("GREEN");
+	    }
+	    else if(c=='Y')
+	    {
+	    	System.out.println("YELLOW");
+	    }
+	    else if(c=='W')
+	    {
+	    	System.out.println("WHITE");
+	    }
+	    else if(c=='O')
+	    {
+	    	System.out.println("ORANGE");
+	    }
+	    else
+	    {
+	    	System.out.println("not valid");
+	    }
+    }
+
+}
+
+3)import java.util.*;
+public class three {
+	  public static void main (String[] args)  
+
+	   {
+		  Scanner sc=new Scanner(System.in);
+	       char item1=sc.next().charAt(0);
+	       char item2=sc.next().charAt(0);
+	       if (item1>item2)
+
+	           System.out.println(item2+" , "+item1);
+
+	       
+
+	       else
+
+	           System.out.println(item1+" , "+item2);
+
+	   }
+
+	   
+}
+4)
+public class four {
+		    public static void main (String[] args)
+	    {
+	        //PROGRAM FINDS WHETHER THERE IS A COMMAND LINE AGRGUMENT OR NOT AND SEPERATES BY COMMA
+	        if (args.length ==0)
+	            {
+	            System.out.println("No Values");
+	    }
+	        else{
+	            for(String i : args)     //for each value in args store in i
+	                System.out.print(i+" , ");
+	       
+	        }
+	    }
+}
+5)
+import java.util.Scanner;
+
+public class five {
+	 public static void main(String[] args)
+	    {
+		 Scanner sc=new Scanner(System.in);
+	       char input_char=sc.next().charAt(0);
+        if ((input_char >= 65 && input_char <= 90)
+            || (input_char >= 97 && input_char <= 122))
+            System.out.println(" Alphabet ");
+ 
+        else if (input_char >= 48 && input_char <= 57)
+            System.out.println(" Digit ");
+ 
+        else
+            System.out.println(" Special Character ");
+    }
+ 
+}
+6)import java.util.*;
+public class eight {
+	public static void main(String[] input)
+    {
+		Scanner sc=new Scanner(System.in);
+	    char c=sc.next().charAt(0);
+	    if(c=='R')
+	    {
+	    	System.out.println("RED");
+	    }
+	    else if(c=='B')
+	    {
+	    	System.out.println("BLUE");
+	    }
+	    else if(c=='G')
+	    {
+	    	System.out.println("GREEN");
+	    }
+	    else if(c=='Y')
+	    {
+	    	System.out.println("YELLOW");
+	    }
+	    else if(c=='W')
+	    {
+	    	System.out.println("WHITE");
+	    }
+	    else if(c=='O')
+	    {
+	    	System.out.println("ORANGE");
+	    }
+	    else
+	    {
+	    	System.out.println("not valid");
+	    }
+    }
+
+}
+7)import java.util.*;
+public class seven {
+	public static void main(String[] input)
+    {
+        char ch;
+        int temp;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Lowercase : ");
+        ch = sc.next().charAt(0);
+		
+        temp = (int) ch;
+        temp = temp - 32;
+        ch = (char) temp;
+		
+        System.out.print("Uppercase = " +ch);
+    }
+}
+8)import java.util.*;
+public class eight {
+	public static void main(String[] input)
+    {
+		Scanner sc=new Scanner(System.in);
+	    char c=sc.next().charAt(0);
+	    if(c=='R')
+	    {
+	    	System.out.println("RED");
+	    }
+	    else if(c=='B')
+	    {
+	    	System.out.println("BLUE");
+	    }
+	    else if(c=='G')
+	    {
+	    	System.out.println("GREEN");
+	    }
+	    else if(c=='Y')
+	    {
+	    	System.out.println("YELLOW");
+	    }
+	    else if(c=='W')
+	    {
+	    	System.out.println("WHITE");
+	    }
+	    else if(c=='O')
+	    {
+	    	System.out.println("ORANGE");
+	    }
+	    else
+	    {
+	    	System.out.println("not valid");
+	    }
+    }
+
+}
+9)import java.util.*;
+public class nine {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+	    int num = sc.nextInt();
+
+	    switch (num)
+	    {
+	    case 1:
+	        System.out.println ("January");
+	        break;
+	    case 2:
+	        System.out.println ("February");
+	        break;
+	    case 3:
+	        System.out.println ("March");
+	        break;
+	    case 4:
+	        System.out.println ("April");
+	        break;
+	    case 5:
+	        System.out.println ("May");
+	        break;
+	    case 6:
+	        System.out.println ("June");
+	        break;
+	    case 7:
+	        System.out.println ("July");
+	        break;
+	    case 8:
+	        System.out.println ("August");
+	        break;
+	    case 9:
+	        System.out.println ("September");
+	        break;
+	    case 10:
+	        System.out.println ("October");
+	        break;
+	    case 11:
+	        System.out.println ("November");
+	        break;
+	    case 12:
+	        System.out.println ("December");
+	        break;
+	        default:
+	            System.out.println ("invalid number");
+	        }
+	}
+}
+10)public class ten {
+    public static void main(String[] args)
+    {
+    			for (int i = 1; i <= 10; i++) {
+    		   
+    		   if (i>=1) {
+    			System.out.print(i + "");
+    		   }
+    			}
+    }
+}
+    		 11)
+public class thirteen {
+	public static void main(String[] args) {
+	    for (int i = 10; i < 99; ++i) {
+	      boolean isPrime = true;
+	      int sqrt = (int)Math.ceil(Math.sqrt(i));
+	      for (int divisor = 2; divisor <= sqrt; ++divisor) {
+	        if (i % divisor == 0) {
+	          isPrime = false;
+	          break;
+	        }
+	      }
+	      if (isPrime) {
+	        System.out.println(i);
+	      }
+	    }
+	}
+}
+12)
+public class thirteen {
+	public static void main(String[] args) {
+	    for (int i = 10; i < 99; ++i) {
+	      boolean isPrime = true;
+	      int sqrt = (int)Math.ceil(Math.sqrt(i));
+	      for (int divisor = 2; divisor <= sqrt; ++divisor) {
+	        if (i % divisor == 0) {
+	          isPrime = false;
+	          break;
+	        }
+	      }
+	      if (isPrime) {
+	        System.out.println(i);
+	      }
+	    }
+	}
+}
+13)import java.util.*;
+public class twelve 
+{
+	public static void main(String args[])
+	{    
+		  int i,m=0,flag=0;  
+		  Scanner sc=new Scanner(System.in);
+		  int n=sc.nextInt();  
+		  m=n/2;      
+		  if(n==0||n==1){  
+		   System.out.println(n+" is not prime number");      
+		  }else{  
+		   for(i=2;i<=m;i++){      
+		    if(n%i==0){      
+		     System.out.println(n+" is not prime number");      
+		     flag=1;      
+		     break;      
+		    }      
+		   }      
+		   if(flag==0)  { System.out.println(n+" is prime number"); }  
+		  }
+	}
+}
+14)import java.util.*;
+public class ften {
+	public static void main(String args[])
+    {
+        int m, n, sum = 0;
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the number:");
+        m = s.nextInt();
+        while(m > 0)
+        {
+            n = m % 10;
+            sum = sum + n;
+            m = m / 10;
+        }
+        System.out.println("Sum of Digits:"+sum);
+    }
+}
+
+16)import java.util.*;
+public class sxten {
+	public static void main(String args[])
+    {
+       int rows, number = 1, counter, j;
+       Scanner input = new Scanner(System.in);
+       rows = input.nextInt();
+       for ( counter = 1 ; counter <= rows ; counter++ )
+       {
+           for ( j = 1 ; j <= counter ; j++ )
+           {
+                System.out.print("*");
+                
+           }
+           //For new line
+           System.out.println();
+       }
+   }
+}
+17)import java.util.*;
+public class svntn {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	    int num = sc.nextInt();
+	    		int reversed = 0;
+
+	    while(num != 0) {
+	    
+	      int digit = num % 10;
+	      reversed = reversed * 10 + digit;
+	      num /= 10;
+	    }
+
+	    System.out.println("Reversed Number: " + reversed);
+	  }
+	}
+
+18)import java.util.*;
+public class egtn {
+	public static void main(String args[]){  
+	  int r,sum=0,temp;    
+		Scanner sc = new Scanner(System.in);
+	    int n = sc.nextInt();
+	    temp=n;    
+	  while(n>0){    
+	   r=n%10;  //getting remainder  
+	   sum=(sum*10)+r;    
+	   n=n/10;    
+	  }    
+	  if(temp==sum)    
+	   System.out.println("palindrome number ");    
+	  else    
+	   System.out.println("not palindrome");    
+	}  
+	}  
+
+
+
+19)import java.util.*;
+public class nten {
+	 public static void main(String[] args) 
+	    {
+	        Scanner sc = new Scanner(System.in);        
+	        int N=sc.nextInt();
+	        for (int num = 0; num < N; num++)
+	        {    
+	           
+	            if (num % 3 == 0 && num % 5 == 0)
+	                System.out.print(num + " ");
+	        }
+	    }
+}
